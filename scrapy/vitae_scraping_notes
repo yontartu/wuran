@@ -1,0 +1,82 @@
+November 17, 2017 | Li Keqiang Meets with President Juan Carlos Varela of Panama
+November 17, 2017 | Yang Jiechi Meets with Minister of Foreign Affairs and International Cooperation Nasser Bourita of Morocco
+November 16, 2017 | Xi Jinping and his era
+November 16, 2017 | Political advisors offer suggestions to China's grain pricing reform
+November 16, 2017 | Panamanian President Juan Carlos Varela and Chinese Foreign Minister Wang Yi inaugurated the Panama Embassy
+November 14, 2017 | Xi back home after APEC summit, state visits to Vietnam, Laos
+November 14, 2017 | Xu Qiliang stresses building strong army under Xi Thought
+November 14, 2017 | Xi back home after APEC summit, state visits to Vietnam, Laos
+November 13, 2017 | Wang Yang calls for sense of mission in poverty reduction
+November 10, 2017 | Chinese president leaves for APEC summit, state visits to Vietnam, Laos
+November 10, 2017 | Xi and Trump hold talks on second day of US president's visit
+November 10, 2017 | Wang Yang stresses innovation, entrepreneurship for rural development
+November 10, 2017 | Chinese defense chief meets with Cape Verde defense and foreign minister
+November 09, 2017 | Xi and Trump watch Peking Opera in Forbidden City
+November 09, 2017 | Xi Jinping hosts welcome ceremony for Donald Trump in Beijing
+November 09, 2017 | Xi, Trump agree on leading role of head-of-state diplomacy in Sino-U.S. ties
+November 09, 2017 | Xi Jinping hosts state banquet for Donald Trump
+November 09, 2017 | Xi's remarks inspire Chinese journalist association
+November 09, 2017 | Chinese army chief meets with commander of Zimbabwe Defense Forces
+November 08, 2017 | Xi hosts Trump with iconic Chinese culture
+
+
+# "meeting" keywords: meet, host, hold talk, visit (both ways!)
+# find what: 	"(\d{4})\n"
+# replace with:	"$1 | "
+
+
+# STEPS:
+# crawl/scrape data from entries from location = beijing http://chinavitae.com/vip/index.php?mode=location&id=9560.002000000000
+# navigate to link embedded in the title
+# extract names of all attendees, in separate columns (attendee_1, attendee_2, etc.)
+# navigate to the link of all attendees
+# extract titles of all attendees, in separate columns (title_1, title_2, etc.) 
+
+{	'date':date
+	, 'activity':act_text
+	, 'location':location
+	, 'attendees':	{
+					'attendee_1':	{	'name':name
+								  		, 'title':title
+								  	}
+					, 'attendee_2':	{	'name':name
+										, 'title':title
+									}
+					, 'attendee_3':	{	'name':name
+										, 'title':title
+									}
+					}
+	, 'source': 	{
+					'source_name':source_name
+					, source_url:source_url
+	, 'topics':	[topic_1, topic_2, topic_3]
+	}
+}
+
+
+
+# watch "fantastic data" video
+# run the regex to make columns pipe-delimited
+
+
+
+
+# search text column for matches with country names
+# search for meeting keywords: see above list (and expand it)
+# NLP word extensions (to match on "meet" and "met" and "meeting", for example)
+# tweepy (or some other twitter package) to scrape data for 2017 and 2018 so far
+# python package for matching on country names and abbreviations (and foreign translations like "cote ivoire" and "ivory coast")
+# restrict analysis to just meeting with xi/hu or li keqiang/wen jiabao?
+# future spiders: only scrape when tag includes 'foreign affairs'
+
+
+links:
+https://github.com/datasets/country-codes
+https://github.com/Corollarium/geograpy2
+https://pypi.python.org/pypi/pycountry
+https://stackoverflow.com/questions/37886534/extracting-nationalities-and-countries-from-text
+
+
+
+# OB suggestion: scrapy
+# jxn suggestions: selenium, automate the boring stuff, mechanical turk if need be

@@ -17,7 +17,6 @@ class OfficialSpider(CrawlSpider):
 	allowed_domains = ['chinavitae.com']
 
 	custom_settings = {
-		'DEPTH_LIMIT': 2,
 	}
 
 	'''rules = (
@@ -32,7 +31,6 @@ class OfficialSpider(CrawlSpider):
 		links = response.css('#colTripleMiddle .link12::attr(href)').extract()
 		
 		for ix, link in enumerate(links): # follow links to activity pages
-			#print('Following activity_id', ix + 1)
 			ix += 1
 			loader = ItemLoader(item=ActivityItem(), response=response)
 			loader.add_value('activity_id', ix)
@@ -44,9 +42,6 @@ class OfficialSpider(CrawlSpider):
 
 
 	def parse_activity(self, response):
-		#self.logger.info('Called parse_activity on %s', response.url)
-		#print('---------- Called parse_activity on %s', response.url)
-		# print('---Called parse_activity')
 		loader = response.meta['loader']
 		sel = Selector(response)
 		loader.add_value('date', datetime.strptime(sel.css('tr:nth-child(1) a::text').extract_first(), '%B %d, %Y').date())
@@ -59,71 +54,25 @@ class OfficialSpider(CrawlSpider):
 		loader.add_value('ncv_links', sel.css('#colTripleMiddle tr:nth-child(4) a::attr(href)').extract(), re='(.*type=ncv.*)')
 		ncv_links = loader.get_collected_values('ncv_links')
 		len_nvc_links = len(ncv_links)
-		
-		# Build the call stack
-		# callstack = [
-		# 	{'url': 'http://chinavitae.com/vip/' + official_url,
-		# 	'callback': self.get_official_name_and_title }
-		# 	# , {'url': "http://www.example.com/lin3.cpp",
-		# 	# 'callback': self.parseDescription3 }
-		# ]
 
 		callstack = []
 		for lnk in ncv_links:
 			callstack.append({'url' : 'http://chinavitae.com/vip/' + lnk, 'callback' : self.get_official_name_and_title})
 		response.meta['callstack'] = callstack
-		# response.meta['loader'] = loader
 
-		# print('Built callstack.')
-		# print(callstack)
-
-		if len(ncv_links) > 0: # if ncv list is NOT empty
-		# if ncv_links[0] == 'index.php?mode=events&type=ncv&sn=Gruevski&gn=Nikola':
-			for i, official_url in enumerate(ncv_links): # loop through official links ('i' is the official counter)
-
-				# # test case #27
-				if ncv_links[0] == 'index.php?mode=events&type=ncv&sn=Gruevski&gn=Nikola':
-				# #######
-
-					print('\n------Looping thru ncv_links. Processing links #', i)
-					'''off_num = 'official_' + str(i+1)
-					off_dict = {}
-					off_dict['name'] = 'some_name_xxx'
-					off_dict['title'] = 'some_title_xxx'
-					new_el = {off_num : off_dict}
-					loader.add_value('officials', new_el)'''
-					
-					# yield scrapy.Request(response.urljoin(official_url), callback=self.get_official_name_and_title, meta={'loader':loader, 'i':i, 'len_nvc_links': len_nvc_links}, priority=1)
-
-					return self.callnext(response)
-
-		# else: # ncv list is empty
-		# 	loader.add_value('officials', 'No foreign officials')
-		# 	yield loader.load_item()
-		
-		#yield loader.load_item()
+		return self.callnext(response)
 			
 
 	def get_official_name_and_title(self, response):
-		print('\tIn get_official_name_and_title()...')
+		"""
+		alsdfjasdkljfalsdfa
+		"""
 		loader = response.meta['loader'] 
-		#i = response.meta['i'] # official counter?
-		#len_nvc_links = response.meta['len_nvc_links']
-		off_num = 'official_xxx' #+ str(i+1)
 		off_dict = {}
 		off_dict['name'] = 'some_name_xxx'
 		off_dict['title'] = 'some_title_xxx'
-		new_el = {off_num : off_dict}
 
-		loader.add_value('officials', new_el)
-		print('\t...loader.add_value() called...')
-		# if i == len_nvc_links-1:
-		# 	# for field in loader.item.fields:
-		# 	# 	print(loader.get_collected_values(field))
-		# 	return loader.load_item()
-
-		# return
-		print('\t...returning to callnext().')
+		loader.add_value('officials', off_dict)
 		return self.callnext(response)
 
 
@@ -132,19 +81,14 @@ class OfficialSpider(CrawlSpider):
 		# Get the meta object from the request, as the response
 		# does not contain it.
 		meta = response.request.meta
-		print('***** In callnext()')
-		print('State of the callstack: ', meta['callstack'])
 		
 		# Items remaining in the stack? Execute them
 		if len(meta['callstack']) > 0:
 			target = meta['callstack'].pop(0)
 			yield scrapy.Request(target['url'], meta=meta, callback=self.get_official_name_and_title, errback=self.callnext)
-			print('***** In callnext(), sending request to', target['url'])
-			# print('----Callback', target['callback'])
 		else:
 			print('***** LOADING ITEM *****')
 			yield meta['loader'].load_item()
-
 
 
 class ActivityItem(scrapy.Item):

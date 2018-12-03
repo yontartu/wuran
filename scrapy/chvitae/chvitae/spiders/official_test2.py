@@ -53,14 +53,18 @@ class OfficialSpider(CrawlSpider):
 		loader.add_value('attendees_links', sel.css('#colTripleMiddle tr:nth-child(4) a::attr(href)').extract())
 		loader.add_value('ncv_links', sel.css('#colTripleMiddle tr:nth-child(4) a::attr(href)').extract(), re='(.*type=ncv.*)')
 		ncv_links = loader.get_collected_values('ncv_links')
-		len_nvc_links = len(ncv_links)
+		# len_nvc_links = len(ncv_links)
 
 		callstack = []
 		for lnk in ncv_links:
 			callstack.append({'url' : 'http://chinavitae.com/vip/' + lnk, 'callback' : self.get_official_name_and_title})
 		response.meta['callstack'] = callstack
 
-		return self.callnext(response)
+		if len(ncv_links) > 0:
+			if 'index.php?mode=events&type=ncv&sn=Chiang&gn=Pin-kung' in ncv_links: # duplicate test case
+				print('\n duplicate test case')
+				print(callstack)
+				return self.callnext(response)
 			
 
 	def get_official_name_and_title(self, response):
@@ -87,7 +91,7 @@ class OfficialSpider(CrawlSpider):
 			target = meta['callstack'].pop(0)
 			yield scrapy.Request(target['url'], meta=meta, callback=self.get_official_name_and_title, errback=self.callnext)
 		else:
-			print('***** LOADING ITEM *****')
+			# print('***** LOADING ITEM *****')
 			yield meta['loader'].load_item()
 
 

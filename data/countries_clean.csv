@@ -1,0 +1,309 @@
+num_code,alpha_2_code,alpha_3_code,country,nationality
+4,AF,AFG,afghanistan,afghan
+248,AX,ALA,åland islands,åland island
+8,AL,ALB,albania,albanian
+12,DZ,DZA,algeria,algerian
+16,AS,ASM,american samoa,american samoan
+20,AD,AND,andorra,andorran
+24,AO,AGO,angola,angolan
+660,AI,AIA,anguilla,anguillan
+10,AQ,ATA,antarctica,antarctic
+28,AG,ATG,antigua and barbuda,antiguan
+28,AG,ATG,antigua and barbuda,barbudan
+32,AR,ARG,argentina,argentine
+51,AM,ARM,armenia,armenian
+533,AW,ABW,aruba,aruban
+36,AU,AUS,australia,australian
+40,AT,AUT,austria,austrian
+31,AZ,AZE,azerbaijan,azerbaijani
+31,AZ,AZE,azerbaijan,azeri
+44,BS,BHS,bahamas,bahamian
+48,BH,BHR,bahrain,bahraini
+50,BD,BGD,bangladesh,bangladeshi
+52,BB,BRB,barbados,barbadian
+112,BY,BLR,belarus,belarusian
+56,BE,BEL,belgium,belgian
+84,BZ,BLZ,belize,belizean
+204,BJ,BEN,benin,beninese
+204,BJ,BEN,benin,beninois
+60,BM,BMU,bermuda,bermudian
+60,BM,BMU,bermuda,bermudan
+64,BT,BTN,bhutan,bhutanese
+68,BO,BOL,bolivia,bolivian
+535,BQ,BES,"bonaire, sint eustatius and saba",bonaire
+536,BQ,BES,bonaire,bonaire
+70,BA,BIH,bosnia and herzegovina,bosnian
+70,BA,BIH,bosnia and herzegovina,herzegovinian
+72,BW,BWA,botswana,motswana
+72,BW,BWA,botswana,botswanan
+74,BV,BVT,bouvet island,bouvet island
+76,BR,BRA,brazil,brazilian
+86,IO,IOT,british indian ocean territory,biot
+96,BN,BRN,brunei darussalam,bruneian
+100,BG,BGR,bulgaria,bulgarian
+854,BF,BFA,burkina faso,burkinabé
+108,BI,BDI,burundi,burundian
+132,CV,CPV,cabo verde,cabo verdean
+116,KH,KHM,cambodia,cambodian
+120,CM,CMR,cameroon,cameroonian
+124,CA,CAN,canada,canadian
+136,KY,CYM,cayman islands,caymanian
+140,CF,CAF,central african republic,central african
+148,TD,TCD,chad,chadian
+152,CL,CHL,chile,chilean
+162,CX,CXR,christmas island,christmas island
+166,CC,CCK,cocos islands,cocos island
+170,CO,COL,colombia,colombian
+174,KM,COM,comoros,comoran
+174,KM,COM,comoros,comorian
+178,CG,COG,republic of the congo,congolese
+178,CG,COG,republic of congo,congolese
+180,CD,COD,democratic republic of the congo,congolese
+180,CD,COD,democratic republic of congo,congolese
+184,CK,COK,cook islands,cook island
+188,CR,CRI,costa rica,costa rican
+384,CI,CIV,côte d'ivoire,ivorian
+385,CI,CIV,ivory coast,ivorian
+191,HR,HRV,croatia,croatian
+192,CU,CUB,cuba,cuban
+531,CW,CUW,curaçao,curaçaoan
+196,CY,CYP,cyprus,cypriot
+203,CZ,CZE,czech republic,czech
+208,DK,DNK,denmark,danish
+262,DJ,DJI,djibouti,djiboutian
+212,DM,DMA,dominica,dominican
+214,DO,DOM,dominican republic,dominican
+218,EC,ECU,ecuador,ecuadorian
+818,EG,EGY,egypt,egyptian
+222,SV,SLV,el salvador,salvadoran
+226,GQ,GNQ,equatorial guinea,equatorial guinean
+226,GQ,GNQ,equatorial guinea,equatoguinean
+232,ER,ERI,eritrea,eritrean
+233,EE,EST,estonia,estonian
+231,ET,ETH,ethiopia,ethiopian
+238,FK,FLK,falkland islands,falkland island
+234,FO,FRO,faroe islands,faroese
+242,FJ,FJI,fiji,fijian
+246,FI,FIN,finland,finnish
+250,FR,FRA,france,french
+254,GF,GUF,french guiana,french guianese
+258,PF,PYF,french polynesia,french polynesian
+260,TF,ATF,french southern territories,french southern territories
+266,GA,GAB,gabon,gabonese
+270,GM,GMB,gambia,gambian
+268,GE,GEO,georgia,georgian
+276,DE,DEU,germany,german
+288,GH,GHA,ghana,ghanaian
+292,GI,GIB,gibraltar,gibraltar
+300,GR,GRC,greece,greek
+300,GR,GRC,greece,hellenic
+304,GL,GRL,greenland,greenlandic
+308,GD,GRD,grenada,grenadian
+312,GP,GLP,guadeloupe,guadeloupe
+316,GU,GUM,guam,guamanian
+316,GU,GUM,guam,guambat
+320,GT,GTM,guatemala,guatemalan
+831,GG,GGY,guernsey,channel island
+324,GN,GIN,guinea,guinean
+624,GW,GNB,guinea-bissau,bissau-guinean
+328,GY,GUY,guyana,guyanese
+332,HT,HTI,haiti,haitian
+334,HM,HMD,heard island and mcdonald islands,heard island
+334,HM,HMD,heard island and mcdonald islands,mcdonald islands
+336,VA,VAT,vatican city,vatican
+340,HN,HND,honduras,honduran
+344,HK,HKG,hong kong,hong kong
+344,HK,HKG,hong kong,hong kongese
+348,HU,HUN,hungary,hungarian
+348,HU,HUN,hungary,magyar
+352,IS,ISL,iceland,icelandic
+356,IN,IND,india,indian
+360,ID,IDN,indonesia,indonesian
+364,IR,IRN,iran,iranian
+364,IR,IRN,iran,persian
+368,IQ,IRQ,iraq,iraqi
+372,IE,IRL,ireland,irish
+833,IM,IMN,isle of man,manx
+376,IL,ISR,israel,israeli
+380,IT,ITA,italy,italian
+388,JM,JAM,jamaica,jamaican
+392,JP,JPN,japan,japanese
+832,JE,JEY,jersey,channel island
+400,JO,JOR,jordan,jordanian
+398,KZ,KAZ,kazakhstan,kazakhstani
+398,KZ,KAZ,kazakhstan,kazakh
+404,KE,KEN,kenya,kenyan
+296,KI,KIR,kiribati,i-kiribati
+408,KP,PRK,democratic people's republic of korea,north korean
+409,KP,PRK,north korea,north korean
+410,KR,KOR,republic of korea,south korean
+411,KR,KOR,south korea,south korean
+414,KW,KWT,kuwait,kuwaiti
+417,KG,KGZ,kyrgyzstan,kyrgyzstani
+417,KG,KGZ,kyrgyzstan,kyrgyz
+417,KG,KGZ,kyrgyzstan,kirgiz
+417,KG,KGZ,kyrgyzstan,kirghiz
+418,LA,LAO,lao people's democratic republic,lao
+418,LA,LAO,lao people's democratic republic,laotian
+419,LA,LAO,laos,lao
+419,LA,LAO,laos,laotian
+420,LA,LAO,lao,lao
+420,LA,LAO,lao,laotian
+428,LV,LVA,latvia,latvian
+422,LB,LBN,lebanon,lebanese
+426,LS,LSO,lesotho,basotho
+430,LR,LBR,liberia,liberian
+434,LY,LBY,libya,libyan
+438,LI,LIE,liechtenstein,liechtenstein
+440,LT,LTU,lithuania,lithuanian
+442,LU,LUX,luxembourg,luxembourg
+442,LU,LUX,luxembourg,luxembourgish
+446,MO,MAC,macao,macanese
+807,MK,MKD,macedonia,macedonian
+450,MG,MDG,madagascar,malagasy
+454,MW,MWI,malawi,malawian
+458,MY,MYS,malaysia,malaysian
+462,MV,MDV,maldives,maldivian
+466,ML,MLI,mali,malian
+466,ML,MLI,mali,malinese
+470,MT,MLT,malta,maltese
+584,MH,MHL,marshall islands,marshallese
+474,MQ,MTQ,martinique,martiniquais
+474,MQ,MTQ,martinique,martinican
+478,MR,MRT,mauritania,mauritanian
+480,MU,MUS,mauritius,mauritian
+175,YT,MYT,mayotte,mahoran
+484,MX,MEX,mexico,mexican
+583,FM,FSM,micronesia ,micronesian
+498,MD,MDA,moldova,moldovan
+492,MC,MCO,monaco,monégasque
+492,MC,MCO,monaco,monacan
+496,MN,MNG,mongolia,mongolian
+499,ME,MNE,montenegro,montenegrin
+500,MS,MSR,montserrat,montserratian
+504,MA,MAR,morocco,moroccan
+508,MZ,MOZ,mozambique,mozambican
+104,MM,MMR,myanmar,burmese
+104,MM,MMR,burma,burmese
+516,,NAM,namibia,namibian
+520,NR,NRU,nauru,nauruan
+524,NP,NPL,nepal,nepali
+524,NP,NPL,nepal,nepalese
+528,NL,NLD,netherlands,dutch
+528,NL,NLD,netherlands,netherlandic
+540,NC,NCL,new caledonia,new caledonian
+554,NZ,NZL,new zealand,new zealand
+554,NZ,NZL,new zealand,nz
+558,NI,NIC,nicaragua,nicaraguan
+562,NE,NER,niger,nigerien
+566,NG,NGA,nigeria,nigerian
+570,NU,NIU,niue,niuean
+574,NF,NFK,norfolk island,norfolk island
+580,MP,MNP,northern mariana islands,northern marianan
+578,NO,NOR,norway,norwegian
+512,OM,OMN,oman,omani
+586,PK,PAK,pakistan,pakistani
+585,PW,PLW,palau,palauan
+275,PS,PSE,palestine,palestinian
+591,PA,PAN,panama,panamanian
+598,PG,PNG,papua new guinea,papua new guinean
+598,PG,PNG,papua new guinea,papuan
+600,PY,PRY,paraguay,paraguayan
+604,PE,PER,peru,peruvian
+608,PH,PHL,philippines,philippine
+608,PH,PHL,philippines,filipino
+612,PN,PCN,pitcairn,pitcairn island
+616,PL,POL,poland,polish
+620,PT,PRT,portugal,portuguese
+630,PR,PRI,puerto rico,puerto rican
+634,QA,QAT,qatar,qatari
+638,RE,REU,réunion,réunionese
+638,RE,REU,réunion,réunionnais
+642,RO,ROU,romania,romanian
+643,RU,RUS,russian federation,russian
+644,RU,RUS,russia,russian
+646,RW,RWA,rwanda,rwandan
+652,BL,BLM,saint barthélemy,barthélemois
+654,SH,SHN,"saint helena, ascension and tristan da cunha",saint helenian
+654,SH,SHN,saint helena,saint helenian
+659,KN,KNA,saint kitts and nevis,kittitian
+659,KN,KNA,saint kitts and nevis,nevisian
+662,LC,LCA,saint lucia,saint lucian
+663,MF,MAF,saint martin,saint-martinoise
+666,PM,SPM,saint pierre and miquelon,saint-pierrais
+666,PM,SPM,saint pierre and miquelon,miquelonnais
+670,VC,VCT,saint vincent and the grenadines,saint vincentian
+670,VC,VCT,saint vincent and the grenadines,vincentian
+882,WS,WSM,samoa,samoan
+674,SM,SMR,san marino,sammarinese
+678,ST,STP,sao tome and principe,são toméan
+682,SA,SAU,saudi arabia,saudi
+682,SA,SAU,saudi arabia,saudi arabian
+686,SN,SEN,senegal,senegalese
+688,RS,SRB,serbia,serbian
+690,SC,SYC,seychelles,seychellois
+694,SL,SLE,sierra leone,sierra leonean
+702,SG,SGP,singapore,singaporean
+534,SX,SXM,sint maarten,sint maarten
+703,SK,SVK,slovakia,slovak
+705,SI,SVN,slovenia,slovenian
+705,SI,SVN,slovenia,slovene
+90,SB,SLB,solomon islands,solomon island
+706,SO,SOM,somalia,somali
+706,SO,SOM,somalia,somalian
+710,ZA,ZAF,south africa,south african
+239,GS,SGS,south georgia and the south sandwich islands,south georgia
+239,GS,SGS,south georgia and the south sandwich islands,south sandwich islands
+728,SS,SSD,south sudan,south sudanese
+724,ES,ESP,spain,spanish
+144,LK,LKA,sri lanka,sri lankan
+729,SD,SDN,sudan,sudanese
+740,SR,SUR,suriname,surinamese
+744,SJ,SJM,svalbard and jan mayen,svalbard
+748,SZ,SWZ,swaziland,swazi
+752,SE,SWE,sweden,swedish
+756,CH,CHE,switzerland,swiss
+760,SY,SYR,syrian arab republic,syrian
+158,TW,TWN,taiwan,taiwanese
+762,TJ,TJK,tajikistan,tajikistani
+834,TZ,TZA,tanzania,tanzanian
+764,TH,THA,thailand,thai
+626,TL,TLS,timor-leste,timorese
+768,TG,TGO,togo,togolese
+772,TK,TKL,tokelau,tokelauan
+776,TO,TON,tonga,tongan
+780,TT,TTO,trinidad and tobago,trinidadian
+780,TT,TTO,trinidad and tobago,tobagonian
+788,TN,TUN,tunisia,tunisian
+792,TR,TUR,turkey,turkish
+795,TM,TKM,turkmenistan,turkmen
+796,TC,TCA,turks and caicos islands,turks and caicos island
+798,TV,TUV,tuvalu,tuvaluan
+800,UG,UGA,uganda,ugandan
+804,UA,UKR,ukraine,ukrainian
+784,AE,ARE,united arab emirates,emirati
+784,AE,ARE,united arab emirates,emirian
+784,AE,ARE,united arab emirates,emiri
+826,GB,GBR,united kingdom,british
+826,GB,GBR,united kingdom,uk
+827,GB,GBR,great britain,british
+827,GB,GBR,great britain,uk
+840,US,USA,united states,american
+858,UY,URY,uruguay,uruguayan
+860,UZ,UZB,uzbekistan,uzbekistani
+860,UZ,UZB,uzbekistan,uzbek
+548,VU,VUT,vanuatu,ni-vanuatu
+548,VU,VUT,vanuatu,vanuatuan
+862,VE,VEN,venezuela ,venezuelan
+704,VN,VNM,vietnam,vietnamese
+92,VG,VGB,british virgin islands,british virgin island
+850,VI,VIR,u.s. virgin islands,u.s. virgin island
+876,WF,WLF,wallis and futuna,wallis and futuna
+876,WF,WLF,wallis and futuna,wallisian
+876,WF,WLF,wallis and futuna,futunan
+732,EH,ESH,western sahara,sahrawi
+732,EH,ESH,western sahara,sahrawian
+732,EH,ESH,western sahara,sahraouian
+887,YE,YEM,yemen,yemeni
+894,ZM,ZMB,zambia,zambian
+716,ZW,ZWE,zimbabwe,zimbabwean

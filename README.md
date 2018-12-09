@@ -13,7 +13,7 @@ $ bash download_pollution_data.sh
 $ python download_noaa_data.py
 ```
 
-##### 2. Scrape official visit activity data from [China Vitae](http://chinavitae.com/) using [Scrapy](https://docs.scrapy.org/en/latest/#).)
+##### 2. Scrape official visit activity data from [China Vitae](http://chinavitae.com/) using [Scrapy](https://docs.scrapy.org/en/latest/#).
 
 ```
 $ scrapy start project chvitae 

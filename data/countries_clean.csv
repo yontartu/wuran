@@ -1,6 +1,7 @@
 num_code,alpha_2_code,alpha_3_code,country,nationality
 4,AF,AFG,afghanistan,afghan
 248,AX,ALA,åland islands,åland island
+248,AX,ALA,åland islands,aland island
 8,AL,ALB,albania,albanian
 12,DZ,DZA,algeria,algerian
 16,AS,ASM,american samoa,american samoan
@@ -22,6 +23,7 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 50,BD,BGD,bangladesh,bangladeshi
 52,BB,BRB,barbados,barbadian
 112,BY,BLR,belarus,belarusian
+112,BY,BLR,belarus,belarussian
 56,BE,BEL,belgium,belgian
 84,BZ,BLZ,belize,belizean
 204,BJ,BEN,benin,beninese
@@ -42,7 +44,9 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 100,BG,BGR,bulgaria,bulgarian
 854,BF,BFA,burkina faso,burkinabé
 108,BI,BDI,burundi,burundian
-132,CV,CPV,cabo verde,cabo verdean
+132,CV,CPV,cape verde,cabo verde
+132,CV,CPV,cape verde,cabo verdean
+132,CV,CPV,cape verde,cape verdean
 116,KH,KHM,cambodia,cambodian
 120,CM,CMR,cameroon,cameroonian
 124,CA,CAN,canada,canadian
@@ -55,16 +59,18 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 170,CO,COL,colombia,colombian
 174,KM,COM,comoros,comoran
 174,KM,COM,comoros,comorian
+180,CD,COD,democratic republic of the congo,democratic republic of congo
 180,CD,COD,democratic republic of the congo,dr congo
-180,CD,COD,democratic republic of congo,dr congo
 178,CG,COG,republic of the congo,republic of congo
 184,CK,COK,cook islands,cook island
 188,CR,CRI,costa rica,costa rican
-384,CI,CIV,côte d'ivoire,ivorian
+385,CI,CIV,ivory coast,côte d'ivoire
+385,CI,CIV,ivory coast,cote d'ivoire
 385,CI,CIV,ivory coast,ivorian
 191,HR,HRV,croatia,croatian
 192,CU,CUB,cuba,cuban
 531,CW,CUW,curaçao,curaçaoan
+531,CW,CUW,curaçao,curacao
 196,CY,CYP,cyprus,cypriot
 203,CZ,CZE,czech republic,czech
 208,DK,DNK,denmark,danish
@@ -72,6 +78,7 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 212,DM,DMA,dominica,dominican
 214,DO,DOM,dominican republic,dominican
 218,EC,ECU,ecuador,ecuadorian
+218,EC,ECU,ecuador,ecuadorean
 818,EG,EGY,egypt,egyptian
 222,SV,SLV,el salvador,salvadoran
 226,GQ,GNQ,equatorial guinea,equatorial guinean
@@ -132,16 +139,14 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 398,KZ,KAZ,kazakhstan,kazakh
 404,KE,KEN,kenya,kenyan
 296,KI,KIR,kiribati,i-kiribati
+408,KP,PRK,democratic people's republic of korea,north korea
 408,KP,PRK,democratic people's republic of korea,north korean
 408,KP,PRK,democratic people's republic of korea,wpk
 408,KP,PRK,democratic people's republic of korea,dprk
-409,KP,PRK,north korea,north korean
-409,KP,PRK,north korea,wpk
-409,KP,PRK,north korea,dprk
+408,KP,PRK,democratic people's republic of korea,workers' party of korea
+410,KR,KOR,republic of korea,south korea
 410,KR,KOR,republic of korea,south korean
 410,KR,KOR,republic of korea,rok
-411,KR,KOR,south korea,south korean
-411,KR,KOR,south korea,rok
 414,KW,KWT,kuwait,kuwaiti
 417,KG,KGZ,kyrgyzstan,kyrgyzstani
 417,KG,KGZ,kyrgyzstan,kyrgyz
@@ -183,8 +188,8 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 500,MS,MSR,montserrat,montserratian
 504,MA,MAR,morocco,moroccan
 508,MZ,MOZ,mozambique,mozambican
+104,MM,MMR,myanmar,burma
 104,MM,MMR,myanmar,burmese
-104,MM,MMR,burma,burmese
 516,,NAM,namibia,namibian
 520,NR,NRU,nauru,nauruan
 524,NP,NPL,nepal,nepali
@@ -223,8 +228,8 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 644,RU,RUS,russia,russian
 646,RW,RWA,rwanda,rwandan
 652,BL,BLM,saint barthélemy,barthélemois
+654,SH,SHN,"saint helena, ascension and tristan da cunha",saint helena
 654,SH,SHN,"saint helena, ascension and tristan da cunha",saint helenian
-654,SH,SHN,saint helena,saint helenian
 659,KN,KNA,saint kitts and nevis,kittitian
 659,KN,KNA,saint kitts and nevis,nevisian
 662,LC,LCA,saint lucia,saint lucian
@@ -262,8 +267,10 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 748,SZ,SWZ,swaziland,swazi
 752,SE,SWE,sweden,swedish
 756,CH,CHE,switzerland,swiss
-760,SY,SYR,syrian arab republic,syrian
+760,SY,SYR,syria,syrian
 158,TW,TWN,taiwan,taiwanese
+158,TW,TWN,taiwan,kmt
+158,TW,TWN,taiwan,kuomintang
 762,TJ,TJK,tajikistan,tajikistani
 762,TJ,TJK,tajikistan,tajik
 834,TZ,TZA,tanzania,tanzanian
@@ -290,12 +297,9 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 826,GB,GBR,united kingdom,british
 826,GB,GBR,united kingdom,u.k.
 826,GB,GBR,united kingdom,uk
-827,GB,GBR,great britain,british
-827,GB,GBR,great britain,u.k.
-827,GB,GBR,great britain,uk
-827,GB,GBR,britain,british
-827,GB,GBR,britain,u.k.
-827,GB,GBR,britain,uk
+826,GB,GBR,united kingdom,great britain
+826,GB,GBR,united kingdom,britain
+826,GB,GBR,united kingdom,england
 840,US,USA,united states,american
 840,US,USA,united states,u.s.
 840,US,USA,united states,us

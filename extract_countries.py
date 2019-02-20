@@ -20,7 +20,7 @@ all_activities = activity_data
 # all_activities = []
 # for a in activity_data:
 # 	# if a['date'] == "January 12, 2015": 
-# 	if a['date'] == 'June 16, 2014': # to test south sudan case
+# 	if a['date'] == 'July 30, 2003': # testing guinea
 # 	# if a['date'] == 'September 26, 2005': # testing dr congo
 # 	# if a['date'] == 'April 22, 2012': # testing dprk 
 # 		all_activities.append(a)

@@ -109,7 +109,6 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 316,GU,GUM,guam,guambat
 320,GT,GTM,guatemala,guatemalan
 831,GG,GGY,guernsey,channel island
-324,GN,GIN,guinea,guinean
 624,GW,GNB,guinea-bissau,bissau-guinean
 328,GY,GUY,guyana,guyanese
 332,HT,HTI,haiti,haitian
@@ -213,6 +212,7 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 591,PA,PAN,panama,panamanian
 598,PG,PNG,papua new guinea,papua new guinean
 598,PG,PNG,papua new guinea,papuan
+324,GN,GIN,guinea,guinean
 600,PY,PRY,paraguay,paraguayan
 604,PE,PER,peru,peruvian
 608,PH,PHL,philippines,philippine

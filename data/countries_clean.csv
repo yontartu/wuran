@@ -31,7 +31,6 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 64,BT,BTN,bhutan,bhutanese
 68,BO,BOL,bolivia,bolivian
 535,BQ,BES,"bonaire, sint eustatius and saba",bonaire
-536,BQ,BES,bonaire,bonaire
 70,BA,BIH,bosnia and herzegovina,bosnian
 70,BA,BIH,bosnia and herzegovina,herzegovinian
 72,BW,BWA,botswana,motswana
@@ -39,7 +38,7 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 74,BV,BVT,bouvet island,bouvet island
 76,BR,BRA,brazil,brazilian
 86,IO,IOT,british indian ocean territory,biot
-96,BN,BRN,brunei darussalam,bruneian
+96,BN,BRN,brunei,bruneian
 100,BG,BGR,bulgaria,bulgarian
 854,BF,BFA,burkina faso,burkinabé
 108,BI,BDI,burundi,burundian
@@ -56,10 +55,9 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 170,CO,COL,colombia,colombian
 174,KM,COM,comoros,comoran
 174,KM,COM,comoros,comorian
-178,CG,COG,republic of the congo,congolese
-178,CG,COG,republic of congo,congolese
-180,CD,COD,democratic republic of the congo,congolese
-180,CD,COD,democratic republic of congo,congolese
+180,CD,COD,democratic republic of the congo,dr congo
+180,CD,COD,democratic republic of congo,dr congo
+178,CG,COG,republic of the congo,republic of congo
 184,CK,COK,cook islands,cook island
 188,CR,CRI,costa rica,costa rican
 384,CI,CIV,côte d'ivoire,ivorian
@@ -135,20 +133,22 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 404,KE,KEN,kenya,kenyan
 296,KI,KIR,kiribati,i-kiribati
 408,KP,PRK,democratic people's republic of korea,north korean
+408,KP,PRK,democratic people's republic of korea,wpk
+408,KP,PRK,democratic people's republic of korea,dprk
 409,KP,PRK,north korea,north korean
+409,KP,PRK,north korea,wpk
+409,KP,PRK,north korea,dprk
 410,KR,KOR,republic of korea,south korean
+410,KR,KOR,republic of korea,rok
 411,KR,KOR,south korea,south korean
+411,KR,KOR,south korea,rok
 414,KW,KWT,kuwait,kuwaiti
 417,KG,KGZ,kyrgyzstan,kyrgyzstani
 417,KG,KGZ,kyrgyzstan,kyrgyz
 417,KG,KGZ,kyrgyzstan,kirgiz
 417,KG,KGZ,kyrgyzstan,kirghiz
-418,LA,LAO,lao people's democratic republic,lao
-418,LA,LAO,lao people's democratic republic,laotian
 419,LA,LAO,laos,lao
 419,LA,LAO,laos,laotian
-420,LA,LAO,lao,lao
-420,LA,LAO,lao,laotian
 428,LV,LVA,latvia,latvian
 422,LB,LBN,lebanon,lebanese
 426,LS,LSO,lesotho,basotho
@@ -174,7 +174,7 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 480,MU,MUS,mauritius,mauritian
 175,YT,MYT,mayotte,mahoran
 484,MX,MEX,mexico,mexican
-583,FM,FSM,micronesia ,micronesian
+583,FM,FSM,micronesia,micronesian
 498,MD,MDA,moldova,moldovan
 492,MC,MCO,monaco,monégasque
 492,MC,MCO,monaco,monacan
@@ -220,7 +220,6 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 638,RE,REU,réunion,réunionese
 638,RE,REU,réunion,réunionnais
 642,RO,ROU,romania,romanian
-643,RU,RUS,russian federation,russian
 644,RU,RUS,russia,russian
 646,RW,RWA,rwanda,rwandan
 652,BL,BLM,saint barthélemy,barthélemois
@@ -266,6 +265,7 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 760,SY,SYR,syrian arab republic,syrian
 158,TW,TWN,taiwan,taiwanese
 762,TJ,TJK,tajikistan,tajikistani
+762,TJ,TJK,tajikistan,tajik
 834,TZ,TZA,tanzania,tanzanian
 764,TH,THA,thailand,thai
 626,TL,TLS,timor-leste,timorese
@@ -277,6 +277,7 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 788,TN,TUN,tunisia,tunisian
 792,TR,TUR,turkey,turkish
 795,TM,TKM,turkmenistan,turkmen
+795,TM,TKM,turkmenistan,turkmenistani
 796,TC,TCA,turks and caicos islands,turks and caicos island
 798,TV,TUV,tuvalu,tuvaluan
 800,UG,UGA,uganda,ugandan
@@ -284,17 +285,27 @@ num_code,alpha_2_code,alpha_3_code,country,nationality
 784,AE,ARE,united arab emirates,emirati
 784,AE,ARE,united arab emirates,emirian
 784,AE,ARE,united arab emirates,emiri
+784,AE,ARE,united arab emirates,uae
+784,AE,ARE,united arab emirates,abu dhabi
 826,GB,GBR,united kingdom,british
+826,GB,GBR,united kingdom,u.k.
 826,GB,GBR,united kingdom,uk
 827,GB,GBR,great britain,british
+827,GB,GBR,great britain,u.k.
 827,GB,GBR,great britain,uk
+827,GB,GBR,britain,british
+827,GB,GBR,britain,u.k.
+827,GB,GBR,britain,uk
 840,US,USA,united states,american
+840,US,USA,united states,u.s.
+840,US,USA,united states,us
+840,US,USA,united states,usa
 858,UY,URY,uruguay,uruguayan
 860,UZ,UZB,uzbekistan,uzbekistani
 860,UZ,UZB,uzbekistan,uzbek
 548,VU,VUT,vanuatu,ni-vanuatu
 548,VU,VUT,vanuatu,vanuatuan
-862,VE,VEN,venezuela ,venezuelan
+862,VE,VEN,venezuela,venezuelan
 704,VN,VNM,vietnam,vietnamese
 92,VG,VGB,british virgin islands,british virgin island
 850,VI,VIR,u.s. virgin islands,u.s. virgin island

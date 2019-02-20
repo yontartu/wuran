@@ -27,13 +27,12 @@ num_code,alpha_2_code,alpha_3_code,en_short_name,nationality
 64,BT,BTN,Bhutan,Bhutanese
 68,BO,BOL,Bolivia,Bolivian
 535,BQ,BES,"Bonaire, Sint Eustatius and Saba",Bonaire
-536,BQ,BES,Bonaire,Bonaire
 70,BA,BIH,Bosnia and Herzegovina,Bosnian or Herzegovinian
 72,BW,BWA,Botswana,"Motswana, Botswanan"
 74,BV,BVT,Bouvet Island,Bouvet Island
 76,BR,BRA,Brazil,Brazilian
 86,IO,IOT,British Indian Ocean Territory,BIOT
-96,BN,BRN,Brunei Darussalam,Bruneian
+96,BN,BRN,Brunei,Bruneian
 100,BG,BGR,Bulgaria,Bulgarian
 854,BF,BFA,Burkina Faso,Burkinabé
 108,BI,BDI,Burundi,Burundian
@@ -49,10 +48,9 @@ num_code,alpha_2_code,alpha_3_code,en_short_name,nationality
 166,CC,CCK,Cocos Islands,Cocos Island
 170,CO,COL,Colombia,Colombian
 174,KM,COM,Comoros,"Comoran, Comorian"
-178,CG,COG,Republic of the Congo,Congolese
-178,CG,COG,Republic of Congo,Congolese
-180,CD,COD,Democratic Republic of the Congo,Congolese
-180,CD,COD,Democratic Republic of Congo,Congolese
+180,CD,COD,Democratic Republic of the Congo,DR Congo
+180,CD,COD,Democratic Republic of Congo,DR Congo
+178,CG,COG,Republic of the Congo,Republic of Congo
 184,CK,COK,Cook Islands,Cook Island
 188,CR,CRI,Costa Rica,Costa Rican
 384,CI,CIV,Côte d'Ivoire,Ivorian
@@ -119,15 +117,13 @@ num_code,alpha_2_code,alpha_3_code,en_short_name,nationality
 398,KZ,KAZ,Kazakhstan,"Kazakhstani, Kazakh"
 404,KE,KEN,Kenya,Kenyan
 296,KI,KIR,Kiribati,I-Kiribati
-408,KP,PRK,Democratic People's Republic of Korea,North Korean
-409,KP,PRK,North Korea,North Korean
-410,KR,KOR,Republic of Korea,South Korean
-411,KR,KOR,South Korea,South Korean
+408,KP,PRK,Democratic People's Republic of Korea,"North Korean, WPK, DPRK"
+409,KP,PRK,North Korea,"North Korean, WPK, DPRK"
+410,KR,KOR,Republic of Korea,"South Korean, ROK"
+411,KR,KOR,South Korea,"South Korean, ROK"
 414,KW,KWT,Kuwait,Kuwaiti
 417,KG,KGZ,Kyrgyzstan,"Kyrgyzstani, Kyrgyz, Kirgiz, Kirghiz"
-418,LA,LAO,Lao People's Democratic Republic,"Lao, Laotian"
 419,LA,LAO,Laos,"Lao, Laotian"
-420,LA,LAO,Lao,"Lao, Laotian"
 428,LV,LVA,Latvia,Latvian
 422,LB,LBN,Lebanon,Lebanese
 426,LS,LSO,Lesotho,Basotho
@@ -150,7 +146,7 @@ num_code,alpha_2_code,alpha_3_code,en_short_name,nationality
 480,MU,MUS,Mauritius,Mauritian
 175,YT,MYT,Mayotte,Mahoran
 484,MX,MEX,Mexico,Mexican
-583,FM,FSM,Micronesia ,Micronesian
+583,FM,FSM,Micronesia,Micronesian
 498,MD,MDA,Moldova,Moldovan
 492,MC,MCO,Monaco,"Monégasque, Monacan"
 496,MN,MNG,Mongolia,Mongolian
@@ -189,7 +185,6 @@ num_code,alpha_2_code,alpha_3_code,en_short_name,nationality
 634,QA,QAT,Qatar,Qatari
 638,RE,REU,Réunion,"Réunionese, Réunionnais"
 642,RO,ROU,Romania,Romanian
-643,RU,RUS,Russian Federation,Russian
 644,RU,RUS,Russia,Russian
 646,RW,RWA,Rwanda,Rwandan
 652,BL,BLM,Saint Barthélemy,Barthélemois
@@ -227,7 +222,7 @@ num_code,alpha_2_code,alpha_3_code,en_short_name,nationality
 756,CH,CHE,Switzerland,Swiss
 760,SY,SYR,Syrian Arab Republic,Syrian
 158,TW,TWN,Taiwan,Taiwanese
-762,TJ,TJK,Tajikistan,Tajikistani
+762,TJ,TJK,Tajikistan,"Tajikistani, Tajik"
 834,TZ,TZA,Tanzania,Tanzanian
 764,TH,THA,Thailand,Thai
 626,TL,TLS,Timor-Leste,Timorese
@@ -237,19 +232,20 @@ num_code,alpha_2_code,alpha_3_code,en_short_name,nationality
 780,TT,TTO,Trinidad and Tobago,Trinidadian or Tobagonian
 788,TN,TUN,Tunisia,Tunisian
 792,TR,TUR,Turkey,Turkish
-795,TM,TKM,Turkmenistan,Turkmen
+795,TM,TKM,Turkmenistan,"Turkmen, Turkmenistani"
 796,TC,TCA,Turks and Caicos Islands,Turks and Caicos Island
 798,TV,TUV,Tuvalu,Tuvaluan
 800,UG,UGA,Uganda,Ugandan
 804,UA,UKR,Ukraine,Ukrainian
-784,AE,ARE,United Arab Emirates,"Emirati, Emirian, Emiri"
-826,GB,GBR,United Kingdom,"British, UK"
-827,GB,GBR,Great Britain,"British, UK"
-840,US,USA,United States,American
+784,AE,ARE,United Arab Emirates,"Emirati, Emirian, Emiri, UAE, Abu Dhabi"
+826,GB,GBR,United Kingdom,"British, U.K., UK"
+827,GB,GBR,Great Britain,"British, U.K., UK"
+827,GB,GBR,Britain,"British, U.K., UK"
+840,US,USA,United States,"American, U.S., US, USA"
 858,UY,URY,Uruguay,Uruguayan
 860,UZ,UZB,Uzbekistan,"Uzbekistani, Uzbek"
 548,VU,VUT,Vanuatu,"Ni-Vanuatu, Vanuatuan"
-862,VE,VEN,Venezuela ,Venezuelan
+862,VE,VEN,Venezuela,Venezuelan
 704,VN,VNM,Vietnam,Vietnamese
 92,VG,VGB,British Virgin Islands,British Virgin Island
 850,VI,VIR,U.S. Virgin Islands,U.S. Virgin Island

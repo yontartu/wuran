@@ -9,6 +9,26 @@ from datetime import datetime
 with open('C:scrapy\\chvitae\\activity_20190214.json') as json_file:
 	activity_data = json.load(json_file)
 
+# sample item in activity_data
+    # {
+    #     "date": "January 22, 2019",
+    #     "activity": "Li Keqiang pledges to promote ties with Cambodia to new high ",
+    #     "location": "Beijing Municipality",
+    #     "attendees": [
+    #         "Li Keqiang",
+    #         "\n\t\t\t\t\t Samdech Hun Sen"
+    #     ],
+    #     "attendees_links": [
+    #         "index.php?mode=events&type=cv&id=263",
+    #         "index.php?mode=events&type=ncv&sn=Samdech Hun Sen&gn="
+    #     ],
+    #     "source": "XINHUA Online (English 2010)",
+    #     "topics": [
+    #         "foreign relations"
+    #     ]
+    # }
+
+
 all_activities = activity_data
 ### TEST DATA ###
 # all_activities = activity_data[170:175]

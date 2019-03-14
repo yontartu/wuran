@@ -38,7 +38,9 @@ def get_data_from_row(row):
 	wind_speed_quality = row[69]
 	wind_direction_quality = row[63]
 	wind_obs_type = row[64]
-	return dt, wind_speed, wind_direction, wind_speed_quality, wind_direction_quality, wind_obs_type
+	tempc = row[87:92]
+	atmpres = row[99:104]
+	return dt, wind_speed, wind_direction, wind_speed_quality, wind_direction_quality, wind_obs_type, tempc, atmpres
 
 
 def write_csv_from_file(filename):
@@ -48,6 +50,8 @@ def write_csv_from_file(filename):
 	wsq_list = [] # wind speed quality
 	wdq_list = [] # wind direction quality
 	wot_list = [] # wind observation type code
+	temp_list = [] # temperature
+	atmp_list = [] # atmospheric pressure
 	
 	f = gzip.open("data/noaa/" + filename,"rb")
 	file_content = f.read()
@@ -57,15 +61,17 @@ def write_csv_from_file(filename):
 	
 	for row in rows:
 		if len(row) > 0:
-			dt, ws, wd, wsq, wdq, wot = get_data_from_row(row)
+			dt, ws, wd, wsq, wdq, wot, temp, atmp = get_data_from_row(row)
 			dt_list.append(dt)
 			ws_list.append(ws)
 			wd_list.append(wd)
 			wsq_list.append(wsq)
 			wdq_list.append(wdq)
 			wot_list.append(wot)
+			temp_list.append(temp)
+			atmp_list.append(atmp)
 
-	df = pd.DataFrame({'date':dt_list, 'wind_speed':ws_list, 'wind_direction':wd_list, 'wind_speed_quality':wsq_list, 'wind_speed_quality':wdq_list, 'wind_obs_type':wot_list})
+	df = pd.DataFrame({'date':dt_list, 'wind_speed':ws_list, 'wind_direction':wd_list, 'wind_speed_quality':wsq_list, 'wind_speed_quality':wdq_list, 'wind_obs_type':wot_list, 'tempc':temp_list, 'atmpres':atmp_list})
 	df.to_csv('data/noaa/isd_' + filename[-7:-3] + '.csv', index=False)
 	print('...Finished writing csv from {0}'.format(filename))
 
@@ -83,3 +89,19 @@ if __name__ == "__main__":
 		write_csv_from_file(filename)
 	
 	print('Done processing all data!')
+
+
+	### TESTING ###
+	# years = list(range(2008, 2009))	
+	# bj = BEIJING_USAF_WBAN_CODE
+
+	# for year in years:
+	# 	download_station_data(bj, year)
+	# 	filename = "{0}-{1}-{2}.gz".format(bj[0], bj[1], year)
+	# 	# write_csv_from_file(filename)
+	# 	f = gzip.open("data/noaa/" + filename,"rb")
+	# 	file_content = f.read()
+	# 	f.close()
+	# 	file_content = file_content.decode()
+	# 	rows = file_content.split("\n")
+	# 	print(rows[0])		

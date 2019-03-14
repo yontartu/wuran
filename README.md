@@ -22,10 +22,10 @@ $ python scrape_officials_titles.py
 $ python extract_countries.py
 ```
 
-##### 3. Analysis: Merge pollution data with China Vitae activity data
+##### 3. Analysis: Merge pollution data with China Vitae activity data and NOAA weather data
 
 ```
-$ jupyter notebook beijing_aqi.ipynb
+$ jupyter notebook beijing_aqi_analysis.ipynb
 ```
 
 ##### Other helpful resources

@@ -13,7 +13,7 @@ $ bash download_pollution_data.sh
 $ python download_noaa_data.py
 ```
 
-##### 2. Scrape official visit data from [China Vitae](http://chinavitae.com/) using [Scrapy](https://docs.scrapy.org/en/latest/#).
+##### 2. Scrape state visit data from [China Vitae](http://chinavitae.com/) using [Scrapy](https://docs.scrapy.org/en/latest/#).
 
 ```
 $ scrapy start project chvitae 
@@ -22,11 +22,13 @@ $ python scrape_officials_titles.py
 $ python extract_countries.py
 ```
 
-##### 3. Analysis: Merge pollution data with China Vitae activity data and NOAA weather data
+##### 3. Analysis: Merge pollution data with state visit data and weather data
 
 ```
 $ jupyter notebook beijing_aqi_analysis.ipynb
 ```
+
+Results from my statistical analysis can be found [here](https://github.com/yontartu/wuran/tree/master/img/analysis). I've also built some data visualizations exploring the [pollution](https://github.com/yontartu/wuran/tree/master/img/pollution), [state visit](https://github.com/yontartu/wuran/tree/master/img/chinavitae) and [weather](https://github.com/yontartu/wuran/tree/master/img/weather) data.
 
 ##### Other helpful resources
 

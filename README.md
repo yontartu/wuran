@@ -28,7 +28,7 @@ $ python extract_countries.py
 $ jupyter notebook beijing_aqi_analysis.ipynb
 ```
 
-Results from my statistical analysis can be found [here](https://github.com/yontartu/wuran/tree/master/img/analysis). I've also built some data visualizations exploring the [pollution](https://github.com/yontartu/wuran/tree/master/img/pollution), [state visit](https://github.com/yontartu/wuran/tree/master/img/chinavitae) and [weather](https://github.com/yontartu/wuran/tree/master/img/weather) data.
+Results from my statistical analysis can be found [here](https://github.com/yontartu/wuran/tree/master/img/analysis), as well as [robustness checks](https://github.com/yontartu/wuran/tree/master/img/robustness_checks) I perform. I've also built some data visualizations exploring the [pollution](https://github.com/yontartu/wuran/tree/master/img/pollution), [state visit](https://github.com/yontartu/wuran/tree/master/img/chinavitae) and [weather](https://github.com/yontartu/wuran/tree/master/img/weather) data.
 
 ##### Other helpful resources
 

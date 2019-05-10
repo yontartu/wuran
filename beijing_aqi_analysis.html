@@ -13151,7 +13151,6 @@ div#notebook {
 <span class="kn">import</span> <span class="nn">openpyxl</span>
 <span class="kn">import</span> <span class="nn">statsmodels.api</span> <span class="k">as</span> <span class="nn">sm</span>
 <span class="kn">from</span> <span class="nn">statsmodels.stats.weightstats</span> <span class="k">import</span> <span class="n">ttest_ind</span>
-<span class="kn">import</span> <span class="nn">scipy.stats</span> <span class="k">as</span> <span class="nn">sp</span>
 <span class="kn">from</span> <span class="nn">statsmodels.iolib.summary2</span> <span class="k">import</span> <span class="n">summary_col</span>
 
 <span class="o">%</span><span class="k">matplotlib</span> inline
@@ -20972,7 +20971,7 @@ y = 177.19 + -10.54x
       <td>NaN</td>
       <td>NaN</td>
       <td>1</td>
-      <td>republic of korea</td>
+      <td>united kingdom</td>
     </tr>
     <tr>
       <th>3</th>
@@ -21130,7 +21129,7 @@ y = 177.19 + -10.54x
       <td>NaN</td>
       <td>NaN</td>
       <td>1</td>
-      <td>republic of korea</td>
+      <td>united kingdom</td>
       <td>True</td>
     </tr>
     <tr>
@@ -22110,7 +22109,7 @@ y = 177.19 + -10.54x
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[88]:</div>
+<div class="prompt input_prompt">In&nbsp;[97]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">p</span> <span class="o">=</span> <span class="n">psw</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -22147,7 +22146,7 @@ y = 177.19 + -10.54x
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[89]:</div>
+<div class="prompt input_prompt">In&nbsp;[98]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">p</span><span class="o">.</span><span class="n">shape</span>
@@ -22163,7 +22162,7 @@ y = 177.19 + -10.54x
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[89]:</div>
+    <div class="prompt output_prompt">Out[98]:</div>
 
 
 
@@ -22180,7 +22179,7 @@ y = 177.19 + -10.54x
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[90]:</div>
+<div class="prompt input_prompt">In&nbsp;[99]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="mi">630</span> <span class="o">+</span> <span class="mi">3134</span>
@@ -22196,7 +22195,7 @@ y = 177.19 + -10.54x
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[90]:</div>
+    <div class="prompt output_prompt">Out[99]:</div>
 
 
 
@@ -22213,7 +22212,7 @@ y = 177.19 + -10.54x
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[91]:</div>
+<div class="prompt input_prompt">In&nbsp;[100]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span><span class="p">,</span> <span class="n">pval</span><span class="p">,</span> <span class="n">degrees_freedom</span> <span class="o">=</span> <span class="n">ttest_ind</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;avg_aqi&#39;</span><span class="p">],</span><span class="n">y</span><span class="p">[</span><span class="s1">&#39;avg_aqi&#39;</span><span class="p">])</span>
@@ -22247,7 +22246,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[92]:</div>
+<div class="prompt input_prompt">In&nbsp;[101]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">means_diff</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">state_visit</span><span class="p">)[[</span><span class="s1">&#39;avg_aqi&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
@@ -22264,7 +22263,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[92]:</div>
+    <div class="prompt output_prompt">Out[101]:</div>
 
 
 
@@ -22315,7 +22314,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[93]:</div>
+<div class="prompt input_prompt">In&nbsp;[102]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">f</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">catplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;state_visit&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;avg_aqi&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">means_diff</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;bar&quot;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;royalblue&quot;</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
@@ -22370,7 +22369,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[94]:</div>
+<div class="prompt input_prompt">In&nbsp;[103]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">psw</span> <span class="o">=</span> <span class="n">pollution_statevisits_weather</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -22399,7 +22398,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[94]:</div>
+    <div class="prompt output_prompt">Out[103]:</div>
 
 
 
@@ -22567,7 +22566,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[95]:</div>
+<div class="prompt input_prompt">In&nbsp;[104]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">psw</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">psw</span><span class="p">,</span> <span class="n">pd</span><span class="o">.</span><span class="n">get_dummies</span><span class="p">(</span><span class="n">psw</span><span class="o">.</span><span class="n">wind_dir_cat</span><span class="p">,</span><span class="n">prefix</span><span class="o">=</span><span class="s1">&#39;wind_dir&#39;</span><span class="p">)],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
@@ -22598,7 +22597,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[95]:</div>
+    <div class="prompt output_prompt">Out[104]:</div>
 
 
 
@@ -22739,7 +22738,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[96]:</div>
+<div class="prompt input_prompt">In&nbsp;[105]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">psw</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">psw</span><span class="o">.</span><span class="n">matched_countries</span><span class="o">.</span><span class="n">isnull</span><span class="p">(),</span> <span class="s1">&#39;matched_countries&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">:</span>
@@ -22757,7 +22756,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[96]:</div>
+    <div class="prompt output_prompt">Out[105]:</div>
 
 
 
@@ -22946,7 +22945,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[97]:</div>
+<div class="prompt input_prompt">In&nbsp;[106]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">match_g20</span><span class="p">(</span><span class="n">other_list</span><span class="p">):</span>
@@ -22979,7 +22978,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[98]:</div>
+<div class="prompt input_prompt">In&nbsp;[107]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">psw</span><span class="p">[</span><span class="s1">&#39;g20_visit&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">psw</span><span class="o">.</span><span class="n">matched_countries</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">match_g20</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
@@ -22996,7 +22995,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[98]:</div>
+    <div class="prompt output_prompt">Out[107]:</div>
 
 
 
@@ -23185,7 +23184,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[99]:</div>
+<div class="prompt input_prompt">In&nbsp;[108]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">psw</span><span class="p">[</span><span class="s1">&#39;usa_visit&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">psw</span><span class="o">.</span><span class="n">matched_countries</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="s1">&#39;united states&#39;</span> <span class="ow">in</span> <span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
@@ -23202,7 +23201,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[99]:</div>
+    <div class="prompt output_prompt">Out[108]:</div>
 
 
 
@@ -23391,7 +23390,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[100]:</div>
+<div class="prompt input_prompt">In&nbsp;[109]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">psw</span><span class="p">[</span><span class="s1">&#39;russia_visit&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">psw</span><span class="o">.</span><span class="n">matched_countries</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="s1">&#39;russia&#39;</span> <span class="ow">in</span> <span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
@@ -23433,7 +23432,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[100]:</div>
+    <div class="prompt output_prompt">Out[109]:</div>
 
 
 
@@ -23614,7 +23613,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[101]:</div>
+<div class="prompt input_prompt">In&nbsp;[110]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">psw</span><span class="p">[</span><span class="n">psw</span><span class="o">.</span><span class="n">canada_visit</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span>
@@ -23630,7 +23629,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[101]:</div>
+    <div class="prompt output_prompt">Out[110]:</div>
 
 
 
@@ -23778,12 +23777,12 @@ The p-value of the t test is 0.4272759228367524
       <td>2014-11-09</td>
       <td>142.416667</td>
       <td>177.0</td>
-      <td>[singapore, russia, thailand, indonesia, canada]</td>
-      <td>singapore</td>
+      <td>[russia, thailand, canada, indonesia, singapore]</td>
       <td>russia</td>
       <td>thailand</td>
-      <td>indonesia</td>
       <td>canada</td>
+      <td>indonesia</td>
+      <td>singapore</td>
       <td>NaN</td>
       <td>...</td>
       <td>0</td>
@@ -23802,10 +23801,10 @@ The p-value of the t test is 0.4272759228367524
       <td>2016-04-19</td>
       <td>141.875000</td>
       <td>165.0</td>
-      <td>[new zealand, india, canada]</td>
-      <td>new zealand</td>
-      <td>india</td>
+      <td>[canada, india, new zealand]</td>
       <td>canada</td>
+      <td>india</td>
+      <td>new zealand</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -23826,9 +23825,9 @@ The p-value of the t test is 0.4272759228367524
       <td>2016-08-31</td>
       <td>55.958333</td>
       <td>124.0</td>
-      <td>[saudi arabia, canada]</td>
-      <td>saudi arabia</td>
+      <td>[canada, saudi arabia]</td>
       <td>canada</td>
+      <td>saudi arabia</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -23914,7 +23913,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[102]:</div>
+<div class="prompt input_prompt">In&nbsp;[111]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">usa_subset</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">psw</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
@@ -23935,7 +23934,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[102]:</div>
+    <div class="prompt output_prompt">Out[111]:</div>
 
 
 
@@ -24123,7 +24122,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[103]:</div>
+<div class="prompt input_prompt">In&nbsp;[112]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">psw</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span><span class="o">.</span><span class="n">T</span>
@@ -24139,7 +24138,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[103]:</div>
+    <div class="prompt output_prompt">Out[112]:</div>
 
 
 
@@ -24560,7 +24559,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[104]:</div>
+<div class="prompt input_prompt">In&nbsp;[113]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># psw.describe().T.to_excel(&#39;img/analysis/0_summary_stats.xlsx&#39;)</span>
@@ -24573,7 +24572,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[105]:</div>
+<div class="prompt input_prompt">In&nbsp;[114]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">psw</span><span class="p">[</span><span class="s1">&#39;year&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">psw</span><span class="o">.</span><span class="n">date</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">year</span><span class="p">)</span>
@@ -24593,7 +24592,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[105]:</div>
+    <div class="prompt output_prompt">Out[114]:</div>
 
 
 
@@ -24781,7 +24780,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[106]:</div>
+<div class="prompt input_prompt">In&nbsp;[115]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># wind_speed x wind_direction</span>
@@ -24816,7 +24815,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[106]:</div>
+    <div class="prompt output_prompt">Out[115]:</div>
 
 
 
@@ -24894,7 +24893,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[107]:</div>
+<div class="prompt input_prompt">In&nbsp;[116]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># wind_speed x year</span>
@@ -24928,7 +24927,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[107]:</div>
+    <div class="prompt output_prompt">Out[116]:</div>
 
 
 
@@ -25078,7 +25077,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[108]:</div>
+<div class="prompt input_prompt">In&nbsp;[117]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># wind_speed x month</span>
@@ -25112,7 +25111,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[108]:</div>
+    <div class="prompt output_prompt">Out[117]:</div>
 
 
 
@@ -25293,7 +25292,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[109]:</div>
+<div class="prompt input_prompt">In&nbsp;[118]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># year x month</span>
@@ -25327,7 +25326,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[109]:</div>
+    <div class="prompt output_prompt">Out[118]:</div>
 
 
 
@@ -25508,7 +25507,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[110]:</div>
+<div class="prompt input_prompt">In&nbsp;[119]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># wind_direction x year</span>
@@ -25542,7 +25541,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[110]:</div>
+    <div class="prompt output_prompt">Out[119]:</div>
 
 
 
@@ -25723,7 +25722,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[111]:</div>
+<div class="prompt input_prompt">In&nbsp;[120]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># wind_direction x month</span>
@@ -25757,7 +25756,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[111]:</div>
+    <div class="prompt output_prompt">Out[120]:</div>
 
 
 
@@ -25938,7 +25937,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[112]:</div>
+<div class="prompt input_prompt">In&nbsp;[121]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">wind_interaction_terms</span> <span class="o">=</span> <span class="n">interaction_terms_df</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">regex</span><span class="o">=</span><span class="s1">&#39;^wind_speed_x_wind_dir_&#39;</span><span class="p">)</span>
@@ -25960,7 +25959,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[113]:</div>
+<div class="prompt input_prompt">In&nbsp;[122]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">p</span> <span class="o">=</span> <span class="n">psw</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -26032,7 +26031,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[114]:</div>
+<div class="prompt input_prompt">In&nbsp;[123]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
@@ -26060,7 +26059,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[114]:</div>
+    <div class="prompt output_prompt">Out[123]:</div>
 
 
 
@@ -26241,7 +26240,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[115]:</div>
+<div class="prompt input_prompt">In&nbsp;[124]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">year_dummies</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;year_2009&#39;</span><span class="p">,</span> <span class="s1">&#39;year_2010&#39;</span><span class="p">,</span> <span class="s1">&#39;year_2011&#39;</span><span class="p">,</span>
@@ -26264,7 +26263,7 @@ The p-value of the t test is 0.4272759228367524
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[115]:</div>
+    <div class="prompt output_prompt">Out[124]:</div>
 
 
 
@@ -26457,7 +26456,7 @@ The p-value of the t test is 0.4272759228367524
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[116]:</div>
+<div class="prompt input_prompt">In&nbsp;[125]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">reg1</span> <span class="o">=</span> <span class="n">sm</span><span class="o">.</span><span class="n">OLS</span><span class="p">(</span><span class="n">p</span><span class="p">[</span><span class="s1">&#39;avg_aqi&#39;</span><span class="p">],</span> <span class="n">p</span><span class="p">[[</span><span class="s1">&#39;const&#39;</span><span class="p">,</span><span class="s1">&#39;wind_speed&#39;</span><span class="p">,</span><span class="s1">&#39;wind_dir_S&#39;</span><span class="p">,</span><span class="s1">&#39;wind_dir_E&#39;</span><span class="p">,</span><span class="s1">&#39;wind_dir_W&#39;</span><span class="p">,</span><span class="s1">&#39;tempc&#39;</span><span class="p">,</span><span class="s1">&#39;atmpres&#39;</span><span class="p">]],</span>
@@ -26589,7 +26588,7 @@ Standard errors in parentheses.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[117]:</div>
+<div class="prompt input_prompt">In&nbsp;[126]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># filepath = &quot;img/analysis/2_results_allcountries.xls&quot;</span>
@@ -26612,7 +26611,7 @@ Standard errors in parentheses.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[118]:</div>
+<div class="prompt input_prompt">In&nbsp;[127]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">run_regressions_for_country</span><span class="p">(</span><span class="n">country_name</span><span class="p">,</span> <span class="n">filenumber</span><span class="p">):</span>
@@ -26652,7 +26651,7 @@ Standard errors in parentheses.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[119]:</div>
+<div class="prompt input_prompt">In&nbsp;[128]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># run_regressions_for_country(&#39;state&#39;,&#39;2&#39;)</span>
@@ -26665,7 +26664,7 @@ Standard errors in parentheses.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[120]:</div>
+<div class="prompt input_prompt">In&nbsp;[129]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run_regressions_for_country</span><span class="p">(</span><span class="s1">&#39;usa&#39;</span><span class="p">,</span><span class="s1">&#39;3&#39;</span><span class="p">)</span>
@@ -26771,7 +26770,7 @@ Saved img/analysis/3_results_usa.xls
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[121]:</div>
+<div class="prompt input_prompt">In&nbsp;[130]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run_regressions_for_country</span><span class="p">(</span><span class="s1">&#39;russia&#39;</span><span class="p">,</span><span class="s1">&#39;4&#39;</span><span class="p">)</span>
@@ -26877,7 +26876,7 @@ Saved img/analysis/4_results_russia.xls
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[122]:</div>
+<div class="prompt input_prompt">In&nbsp;[131]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run_regressions_for_country</span><span class="p">(</span><span class="s1">&#39;japan&#39;</span><span class="p">,</span><span class="s1">&#39;5&#39;</span><span class="p">)</span>
@@ -26983,7 +26982,7 @@ Saved img/analysis/5_results_japan.xls
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[123]:</div>
+<div class="prompt input_prompt">In&nbsp;[132]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run_regressions_for_country</span><span class="p">(</span><span class="s1">&#39;france&#39;</span><span class="p">,</span><span class="s1">&#39;6&#39;</span><span class="p">)</span>
@@ -27089,7 +27088,7 @@ Saved img/analysis/6_results_france.xls
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[124]:</div>
+<div class="prompt input_prompt">In&nbsp;[133]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run_regressions_for_country</span><span class="p">(</span><span class="s1">&#39;germany&#39;</span><span class="p">,</span><span class="s1">&#39;7&#39;</span><span class="p">)</span>
@@ -27195,7 +27194,7 @@ Saved img/analysis/7_results_germany.xls
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[125]:</div>
+<div class="prompt input_prompt">In&nbsp;[134]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run_regressions_for_country</span><span class="p">(</span><span class="s1">&#39;rok&#39;</span><span class="p">,</span><span class="s1">&#39;8&#39;</span><span class="p">)</span>
@@ -27301,7 +27300,7 @@ Saved img/analysis/8_results_rok.xls
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[126]:</div>
+<div class="prompt input_prompt">In&nbsp;[135]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run_regressions_for_country</span><span class="p">(</span><span class="s1">&#39;vietnam&#39;</span><span class="p">,</span><span class="s1">&#39;9&#39;</span><span class="p">)</span>
@@ -27407,7 +27406,7 @@ Saved img/analysis/9_results_vietnam.xls
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[127]:</div>
+<div class="prompt input_prompt">In&nbsp;[136]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run_regressions_for_country</span><span class="p">(</span><span class="s1">&#39;uk&#39;</span><span class="p">,</span><span class="s1">&#39;10&#39;</span><span class="p">)</span>
@@ -27513,7 +27512,7 @@ Saved img/analysis/10_results_uk.xls
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[128]:</div>
+<div class="prompt input_prompt">In&nbsp;[137]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run_regressions_for_country</span><span class="p">(</span><span class="s1">&#39;g20&#39;</span><span class="p">,</span><span class="s1">&#39;11&#39;</span><span class="p">)</span>
@@ -27619,7 +27618,7 @@ Saved img/analysis/11_results_g20.xls
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[129]:</div>
+<div class="prompt input_prompt">In&nbsp;[138]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run_regressions_for_country</span><span class="p">(</span><span class="s1">&#39;dprk&#39;</span><span class="p">,</span><span class="s1">&#39;12&#39;</span><span class="p">)</span>
@@ -27725,7 +27724,7 @@ Saved img/analysis/12_results_dprk.xls
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[130]:</div>
+<div class="prompt input_prompt">In&nbsp;[139]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run_regressions_for_country</span><span class="p">(</span><span class="s1">&#39;pakistan&#39;</span><span class="p">,</span><span class="s1">&#39;13&#39;</span><span class="p">)</span>
@@ -27831,7 +27830,7 @@ Saved img/analysis/13_results_pakistan.xls
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[131]:</div>
+<div class="prompt input_prompt">In&nbsp;[140]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run_regressions_for_country</span><span class="p">(</span><span class="s1">&#39;taiwan&#39;</span><span class="p">,</span><span class="s1">&#39;14&#39;</span><span class="p">)</span>
@@ -27937,7 +27936,7 @@ Saved img/analysis/14_results_taiwan.xls
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[132]:</div>
+<div class="prompt input_prompt">In&nbsp;[141]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run_regressions_for_country</span><span class="p">(</span><span class="s1">&#39;canada&#39;</span><span class="p">,</span><span class="s1">&#39;15&#39;</span><span class="p">)</span>
@@ -28041,9 +28040,171 @@ Saved img/analysis/15_results_canada.xls
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Build-a-model-that-includes-multiple-country-dummies-at-once,-as-well-as-all-country-dummies-(so-that-coefficients-are-comparable)">Build a model that includes multiple country dummies at once, as well as all country dummies (so that coefficients are comparable)<a class="anchor-link" href="#Build-a-model-that-includes-multiple-country-dummies-at-once,-as-well-as-all-country-dummies-(so-that-coefficients-are-comparable)">&#182;</a></h4>
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[133]:</div>
+<div class="prompt input_prompt">In&nbsp;[158]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">reg1</span> <span class="o">=</span> <span class="n">sm</span><span class="o">.</span><span class="n">OLS</span><span class="p">(</span><span class="n">p</span><span class="p">[</span><span class="s1">&#39;avg_aqi&#39;</span><span class="p">],</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">p</span><span class="p">[[</span><span class="s1">&#39;usa_visit&#39;</span><span class="p">,</span><span class="s1">&#39;russia_visit&#39;</span><span class="p">,</span><span class="s1">&#39;japan_visit&#39;</span><span class="p">,</span><span class="s1">&#39;const&#39;</span><span class="p">,</span><span class="s1">&#39;wind_speed&#39;</span><span class="p">,</span><span class="s1">&#39;wind_dir_S&#39;</span><span class="p">,</span><span class="s1">&#39;wind_dir_E&#39;</span><span class="p">,</span><span class="s1">&#39;wind_dir_W&#39;</span><span class="p">,</span><span class="s1">&#39;tempc&#39;</span><span class="p">,</span><span class="s1">&#39;atmpres&#39;</span><span class="p">]</span> 
+                              <span class="o">+</span> <span class="n">year_dummies</span> <span class="o">+</span> <span class="n">month_dummies</span><span class="p">],</span> <span class="n">wind_interaction_terms</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">),</span>
+              <span class="n">missing</span><span class="o">=</span><span class="s1">&#39;drop&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">()</span>
+<span class="n">reg2</span> <span class="o">=</span> <span class="n">sm</span><span class="o">.</span><span class="n">OLS</span><span class="p">(</span><span class="n">p</span><span class="p">[</span><span class="s1">&#39;avg_aqi&#39;</span><span class="p">],</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">p</span><span class="p">[[</span><span class="s1">&#39;pakistan_visit&#39;</span><span class="p">,</span><span class="s1">&#39;dprk_visit&#39;</span><span class="p">,</span><span class="s1">&#39;const&#39;</span><span class="p">,</span><span class="s1">&#39;wind_speed&#39;</span><span class="p">,</span><span class="s1">&#39;wind_dir_S&#39;</span><span class="p">,</span><span class="s1">&#39;wind_dir_E&#39;</span><span class="p">,</span><span class="s1">&#39;wind_dir_W&#39;</span><span class="p">,</span><span class="s1">&#39;tempc&#39;</span><span class="p">,</span><span class="s1">&#39;atmpres&#39;</span><span class="p">]</span> 
+                              <span class="o">+</span> <span class="n">year_dummies</span> <span class="o">+</span> <span class="n">month_dummies</span><span class="p">],</span> <span class="n">wind_interaction_terms</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">),</span>
+              <span class="n">missing</span><span class="o">=</span><span class="s1">&#39;drop&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">()</span>
+<span class="n">reg3</span> <span class="o">=</span> <span class="n">sm</span><span class="o">.</span><span class="n">OLS</span><span class="p">(</span><span class="n">p</span><span class="p">[</span><span class="s1">&#39;avg_aqi&#39;</span><span class="p">],</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">p</span><span class="p">[[</span><span class="s1">&#39;usa_visit&#39;</span><span class="p">,</span><span class="s1">&#39;russia_visit&#39;</span><span class="p">,</span><span class="s1">&#39;japan_visit&#39;</span><span class="p">,</span><span class="s1">&#39;pakistan_visit&#39;</span><span class="p">,</span><span class="s1">&#39;dprk_visit&#39;</span><span class="p">,</span><span class="s1">&#39;const&#39;</span><span class="p">,</span><span class="s1">&#39;wind_speed&#39;</span><span class="p">,</span><span class="s1">&#39;wind_dir_S&#39;</span><span class="p">,</span><span class="s1">&#39;wind_dir_E&#39;</span><span class="p">,</span><span class="s1">&#39;wind_dir_W&#39;</span><span class="p">,</span><span class="s1">&#39;tempc&#39;</span><span class="p">,</span><span class="s1">&#39;atmpres&#39;</span><span class="p">]</span> 
+                              <span class="o">+</span> <span class="n">year_dummies</span> <span class="o">+</span> <span class="n">month_dummies</span><span class="p">],</span> <span class="n">wind_interaction_terms</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">),</span>
+              <span class="n">missing</span><span class="o">=</span><span class="s1">&#39;drop&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">()</span>
+
+<span class="n">ols_output</span> <span class="o">=</span> <span class="n">summary_col</span><span class="p">([</span><span class="n">reg1</span><span class="p">,</span> <span class="n">reg2</span><span class="p">,</span> <span class="n">reg3</span><span class="p">],</span> 
+                         <span class="n">stars</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> 
+                         <span class="n">model_names</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;AQI</span><span class="se">\n</span><span class="s1">(1)&#39;</span><span class="p">,</span><span class="s1">&#39;AQI</span><span class="se">\n</span><span class="s1">(2)&#39;</span><span class="p">,</span><span class="s1">&#39;AQI</span><span class="se">\n</span><span class="s1">(3)&#39;</span><span class="p">],</span> 
+                         <span class="n">float_format</span><span class="o">=</span><span class="s1">&#39;</span><span class="si">%.3f</span><span class="s1">&#39;</span><span class="p">,</span>
+                         <span class="n">regressor_order</span><span class="o">=</span><span class="p">([</span><span class="s1">&#39;usa_visit&#39;</span><span class="p">,</span><span class="s1">&#39;russia_visit&#39;</span><span class="p">,</span><span class="s1">&#39;japan_visit&#39;</span><span class="p">,</span><span class="s1">&#39;pakistan_visit&#39;</span><span class="p">,</span><span class="s1">&#39;dprk_visit&#39;</span><span class="p">,</span>
+                                          <span class="s1">&#39;wind_speed&#39;</span><span class="p">,</span><span class="s1">&#39;wind_dir_S&#39;</span><span class="p">,</span><span class="s1">&#39;wind_dir_E&#39;</span><span class="p">,</span><span class="s1">&#39;wind_dir_W&#39;</span><span class="p">,</span>
+                                          <span class="s1">&#39;tempc&#39;</span><span class="p">,</span><span class="s1">&#39;atmpres&#39;</span><span class="p">,</span>
+                                          <span class="s1">&#39;wind_speed_x_wind_dir_N&#39;</span><span class="p">,</span><span class="s1">&#39;wind_speed_x_wind_dir_S&#39;</span><span class="p">,</span>
+                                          <span class="s1">&#39;wind_speed_x_wind_dir_E&#39;</span><span class="p">,</span><span class="s1">&#39;wind_speed_x_wind_dir_W&#39;</span>
+                                          <span class="p">]),</span>
+                         <span class="n">info_dict</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;N&#39;</span><span class="p">:</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="s2">&quot;</span><span class="si">{0:d}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">nobs</span><span class="p">)),</span>
+                            <span class="s1">&#39;R2&#39;</span><span class="p">:</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="s2">&quot;</span><span class="si">{:.2f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">rsquared</span><span class="p">)}</span>
+                        <span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">ols_output</span><span class="p">)</span>
+<span class="n">filepath</span> <span class="o">=</span> <span class="s2">&quot;img/analysis/17_results_multicountry.xls&quot;</span>
+<span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">filepath</span><span class="p">,</span><span class="s1">&#39;w&#39;</span><span class="p">)</span>
+<span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">ols_output</span><span class="o">.</span><span class="n">as_text</span><span class="p">())</span>
+<span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">Saved&#39;</span><span class="p">,</span> <span class="n">filepath</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+===========================================================
+                            AQI         AQI         AQI    
+                            (1)         (2)         (3)    
+-----------------------------------------------------------
+usa_visit               -11.777                 -11.803    
+                        (7.253)                 (7.248)    
+russia_visit            -2.397                  -1.820     
+                        (8.975)                 (8.971)    
+japan_visit             22.904                  23.036*    
+                        (13.983)                (13.972)   
+pakistan_visit                      -23.606*    -23.696*   
+                                    (13.610)    (13.612)   
+dprk_visit                          33.090**    33.058**   
+                                    (14.382)    (14.379)   
+wind_speed              -0.045      -0.091      -0.059     
+                        (4.711)     (4.709)     (4.707)    
+wind_dir_S              131.529***  131.512***  131.388*** 
+                        (33.649)    (33.632)    (33.622)   
+wind_dir_E              65.232*     65.448*     65.616*    
+                        (33.921)    (33.903)    (33.894)   
+wind_dir_W              144.929***  144.653***  145.129*** 
+                        (34.107)    (34.090)    (34.080)   
+tempc                   2.080***    2.048***    2.062***   
+                        (0.344)     (0.343)     (0.344)    
+atmpres                 -3.199***   -3.198***   -3.200***  
+                        (0.219)     (0.219)     (0.219)    
+wind_speed_x_wind_dir_S -26.458***  -26.421***  -26.410*** 
+                        (5.011)     (5.008)     (5.007)    
+wind_speed_x_wind_dir_E -11.322**   -11.365**   -11.420**  
+                        (4.903)     (4.901)     (4.899)    
+wind_speed_x_wind_dir_W -29.903***  -29.827***  -30.030*** 
+                        (5.579)     (5.576)     (5.575)    
+const                   3415.236*** 3413.627*** 3416.546***
+                        (228.465)   (228.245)   (228.306)  
+month_10                -87.506***  -87.065***  -87.364*** 
+                        (7.014)     (7.005)     (7.009)    
+month_11                -40.388***  -40.279***  -40.242*** 
+                        (5.513)     (5.510)     (5.510)    
+month_12                -13.815***  -13.695***  -13.950*** 
+                        (4.963)     (4.959)     (4.959)    
+month_2                 -23.007***  -22.856***  -22.881*** 
+                        (5.177)     (5.175)     (5.174)    
+month_3                 -57.715***  -57.762***  -57.904*** 
+                        (5.878)     (5.874)     (5.874)    
+month_4                 -98.429***  -97.660***  -98.106*** 
+                        (7.440)     (7.434)     (7.437)    
+month_5                 -130.582*** -129.756*** -130.133***
+                        (8.844)     (8.835)     (8.839)    
+month_6                 -165.295*** -164.747*** -165.014***
+                        (9.685)     (9.674)     (9.681)    
+month_7                 -178.402*** -177.507*** -177.837***
+                        (10.221)    (10.212)    (10.218)   
+month_8                 -182.339*** -181.450*** -182.040***
+                        (9.947)     (9.934)     (9.943)    
+month_9                 -147.481*** -147.038*** -147.290***
+                        (8.693)     (8.687)     (8.689)    
+year_2009               14.537***   13.930***   14.052***  
+                        (5.330)     (5.329)     (5.329)    
+year_2010               17.727***   17.306***   17.397***  
+                        (5.210)     (5.205)     (5.208)    
+year_2011               11.481**    11.223**    11.075**   
+                        (5.197)     (5.191)     (5.195)    
+year_2012               0.265       -0.099      0.039      
+                        (5.193)     (5.188)     (5.190)    
+year_2013               9.308*      8.992*      9.273*     
+                        (5.165)     (5.155)     (5.162)    
+year_2014               2.653       2.266       2.752      
+                        (5.193)     (5.183)     (5.189)    
+year_2015               -13.037**   -13.332**   -13.188**  
+                        (5.254)     (5.244)     (5.253)    
+year_2016               -18.729***  -18.917***  -18.922*** 
+                        (5.185)     (5.177)     (5.183)    
+year_2017               -34.279***  -34.608***  -34.432*** 
+                        (5.194)     (5.188)     (5.194)    
+year_2018               -42.352***  -42.676***  -42.581*** 
+                        (5.205)     (5.192)     (5.202)    
+N                       3736        3736        3736       
+R2                      0.34        0.34        0.34       
+===========================================================
+Standard errors in parentheses.
+* p&lt;.1, ** p&lt;.05, ***p&lt;.01
+
+Saved img/analysis/17_results_multicountry.xls
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">beginningtex</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span><span class="se">\\</span><span class="s2">documentclass</span><span class="si">{report}</span><span class="s2"></span>
@@ -28096,7 +28257,7 @@ Saved img/analysis/15_results_canada.xls
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[134]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">top_21_countries</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;united states&#39;</span><span class="p">,</span><span class="s1">&#39;russia&#39;</span><span class="p">,</span><span class="s1">&#39;france&#39;</span><span class="p">,</span><span class="s1">&#39;germany&#39;</span><span class="p">,</span><span class="s1">&#39;republic of korea&#39;</span>
@@ -28111,30 +28272,10 @@ Saved img/analysis/15_results_canada.xls
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[134]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>23</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[135]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">add_estimates_to_top21</span><span class="p">(</span><span class="n">country_col</span><span class="p">,</span> <span class="n">country_name</span><span class="p">,</span> <span class="n">df</span><span class="p">):</span>
@@ -28157,7 +28298,7 @@ Saved img/analysis/15_results_canada.xls
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[147]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">top_21_estimates</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span>

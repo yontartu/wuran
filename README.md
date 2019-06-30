@@ -4,6 +4,10 @@ There is ample anecdotal evidence that Chinese authorities are able to exert con
 
 I seek to probe this question by developing a novel approach to quantify China’s bilateral relationships through air pollution. My project can be seen as an attempt to develop an index of political importance using AQI data—how strategically important China views each of its relationships with other countries through a pollution “score.” Air pollution data comes from the US State Department (particulate matter readings taken from the US Embassy in Beijing that are then converted into AQI values) and data on visits to Beijing by foreign government representatives comes from China Vitae (a Carnegie Endowment for International Peace project that tracks the appearances and travel of leading Chinese officials). 
 
+![alt text](https://github.com/yontartu/wuran/blob/master/img/pollution/7_trump_visit_aqi.png)
+
+![alt text](https://github.com/yontartu/wuran/blob/master/img/analysis/16_top_21_estimates.png)
+
 ## Set-Up Instructions
 
 ##### 1. Download pollution data from the [State Department](https://airnow.gov/index.cfm?action=airnow.global_summary#China$Beijing) and weather data from [NOAA](https://www.ncdc.noaa.gov/isd).

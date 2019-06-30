@@ -1,7 +1,16 @@
 
 # Created by https://www.gitignore.io/api/python
 
+todo.md
 raw_data/
+beijing_aqi.ipynb
+img/analysis/*.xls*
+img/robustness_checks/check_1_allvisits/*.xls*
+img/robustness_checks/check_2_altdepvar/*.xls*
+img/robustness_checks/check_3_natexp/*.xls*
+scrapy/*
+data/activity_20190214_titles.json
+data_processing_functions.py
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
